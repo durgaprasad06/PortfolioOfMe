@@ -1,0 +1,222 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: #252529;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	line-height: 1.6;
+}
+#showcase{
+	/*margin: 0;
+	padding: 0;*/
+	background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dportfolio&psig=AOvVaw1FidlhEeX3iCfpQMV5fcDP&ust=1699694021908000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjuxeSLuYIDFQAAAAAdAAAAABAE) no-repeat center/cover;
+	/*width: 100%;*/
+	height: 100vh; /*viewport-height*/
+/*	position: relative;
+	overflow: hidden;*/
+	display: flex;
+}
+#showcase .section-main{
+	margin-top: 25vh;
+}
+
+.section-main h2{
+	font-size: 3rem; /*root elements font size */
+	margin-bottom: 0;
+	color: orange;
+	padding: 0 40px;
+	text-align: left;
+}
+
+.section-main h4{
+	font-size: 1.5rem; /*root elements font size */
+	padding: 0 40px;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:#333;
+	padding: 10px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+nav ul{ 
+	margin: 0;
+	padding: 0; 
+}
+
+nav ul li{
+	display: inline-flex;;
+	float: left;
+}
+nav ul li a{
+	padding: 10px 20px;
+	margin: 0 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #eee;
+}
+nav li:hover{
+	background-color: orange;
+}
+h2{
+	text-align: center;
+}
+.about{
+	height: 100vh;
+	padding: 50px;
+}
+.contain1 {
+	display: inline-flex;
+	position: relative;
+}
+.contain11 {
+position: relative;
+width: 800px;
+height: 400px;
+overflow: hidden; 
+}
+.contain1 p{
+	font-size: 18px;
+	text-align: left;
+}
+.resume{
+	padding: 10px 28px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: flex;;
+	margin: 60px 40px;
+	padding: 40px 70px;
+	border-radius: 10px;
+	width: 180px;
+	height: 30px;
+	text-align: center;
+	background-color: black;
+}
+.resume:hover{
+	background-color: orange;
+}
+img {
+position: absolute;
+top: 20px;
+right: 20px;
+transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+}
+.contain11:hover img {
+transform: translate(20px, 20px); /* Adjust the translation values as needed */
+}
+
+.skill{
+	height: 100vh;
+	padding: 50px;
+}
+.contain2{
+	padding: 100px;
+	margin: 10px;
+	height: 100hv;
+	overflow: hidden;
+	display: flex;
+	border: 10px;
+	grid-gap: 20px;
+	position: all;;
+}
+.s1{
+	padding: 40px;
+	width: 250px;
+	height: 100hv;
+	color: black;
+	background-color: white;
+	text-align: center;
+	list-style: none;
+}
+.s1 .l1{
+	list-style: none;
+}
+.contain2 :hover{
+	background-color: orange;
+}
+.li li{
+	text-overflow: initial;
+}
+.p1{
+	justify-content: center;
+}
+.project{
+	height: 100vh;
+	padding: 50px;
+}
+.contain3{
+	position: all;
+	display: inline-flex;
+	grid-gap: 20px;
+	padding: 190px;
+	margin: 10px 100px;
+}
+.project01{
+	padding: 40px;
+	width: 250px;
+	height: 100hv;
+	color: black;
+	background-color: white;
+	text-align: center;
+	list-style: none;
+}
+.project01 ul li{
+	list-style: none;
+}
+.project01:hover{
+	background-color: orange;
+}
+.educations{
+	height: 100vh;
+	padding: 50px;
+}
+.contain4{
+	display: inline-flex;
+	position: all;
+	grid-gap: 20px;
+	padding: 0;
+	margin: 100px 0;
+}
+.contain4 .s4{
+	padding-right: 100px;
+	margin: 100px 30px;
+	width: 250px;
+	color: black;
+	background-color: white;
+	text-align: left;
+}
+.contain4 :hover{
+	background-color: orange;
+}
+.s4 h3{
+	text-align: center;
+}
+.contacts{
+	height: 100vh;
+	padding: 50px;
+}
+.contain5 ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-flex;
+}
+.contain5 ul{
+	display: inline;
+}
+.contain5 ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 80px;
+	margin: 60px;
+
+}
+.contain5 ul li a:hover{
+	background-color: orange;
+}
