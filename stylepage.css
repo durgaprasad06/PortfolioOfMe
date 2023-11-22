@@ -200,23 +200,17 @@ transform: translate(20px, 20px); /* Adjust the translation values as needed */
 	height: 100vh;
 	padding: 50px;
 }
-.contain5 ul li{
-	list-style: none;
-	text-decoration: none;
-	display: inline-flex;
+.contacts h2{
+	margin-bottom: 100px;
 }
-.contain5 ul{
-	display: inline;
+.contain5 a{
+	margin: 160px;
+	padding: 20px;
 }
-.contain5 ul li a{
-	color: white;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 0 80px;
-	margin: 60px;
+.contain5 a img{
+	width: 40px;
 
 }
-.contain5 ul li a:hover{
-	background-color: orange;
+.con{
+	border-radius: 50px;
 }
