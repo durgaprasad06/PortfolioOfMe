@@ -7,13 +7,9 @@ body{
 	line-height: 1.6;
 }
 #showcase{
-	/*margin: 0;
-	padding: 0;*/
-	background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dportfolio&psig=AOvVaw1FidlhEeX3iCfpQMV5fcDP&ust=1699694021908000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjuxeSLuYIDFQAAAAAdAAAAABAE) no-repeat center/cover;
-	/*width: 100%;*/
+	background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dportfolio&psig=AOvVaw1FidlhEeX3iCfpQMV5fcDP&ust=1699694021908000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjuxeSLuYIDFQAAAAAdAAAAABAE) 
+				no-repeat center/cover;
 	height: 100vh; /*viewport-height*/
-/*	position: relative;
-	overflow: hidden;*/
 	display: flex;
 }
 #showcase .section-main{
@@ -28,9 +24,13 @@ body{
 	text-align: left;
 }
 
-.section-main h4{
+.section-main h3{
 	font-size: 1.5rem; /*root elements font size */
 	padding: 0 40px;
+}
+.section-main h3:hover {
+	font-size: 30px;
+	cursor: pointer;
 }
 nav {
 	position: fixed;
